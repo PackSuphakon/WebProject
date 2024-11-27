@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    
+    background-color: black;
+}
+
+.body_con {
+    
+    background-color: rgb(75, 75, 75);
+}
+
+/* การตั้งค่าสำหรับ header */
+.header {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 20px 20px;
+background-color: black;
+    border-top: 10;
+
+}
+
+
+
+
+.navbar {
+    margin-left: auto;
+    /* ดันเมนูให้ไปอยู่ทางขวาสุด */
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 20 10px;
+}
+
+.navbar a.language {
+    border-left: 1px solid #ffffff;
+    padding-left: 10px;
+    border-bottom: 0;
+}
+
+
+.background {
+  position: absolute;
+width: 100%;
+min-height: 100vh;
+background-image: url(imgforwebproject/img1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+z-index: -5;
+filter: blur(10px);
+
+}
+
+.content img {
+    size: cover;
+    max-width: 30%;
+    height: auto;
+    border: 5px solid #f3f3f3;
+    margin-left: 20px;
+}
+
+.header-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.active:hover {
+    background-color: #ddd;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.active:active {
+    background-color: #04AA6D;
+    color: white;
+    text-decoration: none;
+}
+.text {
+    color: white;
+    margin-top: 200px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.text_con{
+
+     color: white;
+     margin: 10 10px;
+}
+.navbar_con {
+    margin-left: auto;
+    display: flex;
+    /* ดันเมนูให้ไปอยู่ทางขวาสุด */
+}
+.navbar_con a.language {
+    border-left: 1px solid #ffffff;
+    padding-left: 10px;
+    border-bottom: 0;
+}
+.navbar_con a {
+    color: white;
+    text-decoration: none;
+    margin: 20 10px;
+}
+.header_con {
+    display: flex;
+    align-items: center;
+
+    padding: 20px 20px;
+background-color: black;
+    border-top: 10;
+
+}
+.header_con-text {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+}
+.logo_link {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+    text-decoration: white;
+}
+.logo_text {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-left: 10px;
+    text-decoration: white;
+}
